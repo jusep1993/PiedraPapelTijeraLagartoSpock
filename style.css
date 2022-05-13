@@ -1,0 +1,75 @@
+html{overflow: hidden;}
+body{
+    overflow-y: hidden;
+    border: 2px solid mediumorchid;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+header{
+    border: 2px solid green;
+    background: rgb(64, 153, 241);
+    font-size: 20px;
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    border: 2px solid pink;
+    background: rgb(112, 228, 248);
+}
+
+.top-main{
+    border: 2px solid black;
+    margin-left: 30%;
+    height: 170px;
+    width: 40%;
+    display: flex;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.datos{
+    border: 2px solid black;
+    margin: 1px;
+    padding: 29px;
+    display: flex;
+    justify-items: center;
+    flex-basis: 33%;
+    justify-content: center;
+}
+
+.mid-main{
+    border: 2px solid black;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bottom-main{
+    border: 2px solid black;
+    height: 37vh;
+}
+
+
+footer{
+    border: 2px solid black;
+    background: rgb(62, 121, 168);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin: 1rem;
+}

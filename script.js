@@ -29,6 +29,13 @@ function game(){
 
 //game();
 
+//--------------------------------------------------------------------------------
+//
+//             DOM
+
+
+
+
 
 
 // Function that determines who wins each round
