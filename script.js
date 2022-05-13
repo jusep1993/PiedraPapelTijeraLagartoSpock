@@ -27,7 +27,7 @@ function game(){
     Score(playerScore, computerScore);
 }
 
-game();
+//game();
 
 
 
